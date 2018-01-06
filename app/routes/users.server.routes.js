@@ -42,4 +42,12 @@ module.exports = function (app) {
         failureRedirect: '/signin',
         successRedirect: '/'
     }));
+    //github AOuth route
+    app.get('/oauth/github', passport.authenticate('github', {
+        failureRedirect: '/signin',
+    }));
+    app.get('/oauth/github/callback', passport.authenticate('github', {
+        failureRedirect: '/signin',
+        successRedirect: '/'
+    }));
 };

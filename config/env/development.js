@@ -16,5 +16,10 @@ module.exports = {
         clientID: '122231928484-dscb3ho04vmgkjnm1lasvidppkt18re0.apps.googleusercontent.com',
         clientSecret: 'AId0-G5HO5D0yYag255ijBJN',
         callbackURL: 'http://localhost:3000/oauth/google/callback'
-    }
+    },
+    github: { //OAuth GH App Data
+        clientID: '2cc734bd5eb906f3af50',
+        clientSecret: '050fe08b0015fa404ab72d7b068de4b68d346bdb',
+        callbackURL: 'http://localhost:3000/oauth/github/callback'
+    },
 };
