@@ -20,7 +20,7 @@ var getErrorMessage = function(err) {
     }
   }
   return message;
-}
+};
 
 //signin view render
 exports.renderSignin = function(req, res, next) {
